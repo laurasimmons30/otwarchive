@@ -12,6 +12,7 @@ Feature: Filters
       And I post the work "A Hobbit's Meandering" with fandom "The Hobbit"
       And I post the work "Bilbo Does the Thing" with fandom "The Hobbit, Legend of Korra"
       And I post the work "Roonal Woozlib and the Ferrets of Nimh" with fandom "Harry Potter"
+      And it is currently 1 second from now
 
   @javascript
   Scenario: You can filter through a user's works using inclusion filters
